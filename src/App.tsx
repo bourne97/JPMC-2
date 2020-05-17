@@ -36,6 +36,7 @@ class App extends Component<{}, IState> {
     return (<Graph data={this.state.data}/>)
     }
   }
+  
 
   /**
    * 
