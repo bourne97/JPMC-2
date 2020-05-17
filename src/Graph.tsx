@@ -18,6 +18,7 @@ interface IProps {
  */
 interface PerspectiveViewerElement extends HTMLElement {
   load: (table: Table) => void,
+
 }
 
 /**
