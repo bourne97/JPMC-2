@@ -3,12 +3,14 @@ import { Table } from '@jpmorganchase/perspective';
 import { ServerRespond } from './DataStreamer';
 import './Graph.css';
 
+
 /**
  * Props declaration for <Graph />
  */
 interface IProps {
   data: ServerRespond[],
 }
+
 
 /**
  * Perspective library adds load to HTMLElement prototype.
